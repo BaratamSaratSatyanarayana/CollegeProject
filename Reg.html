@@ -26,9 +26,16 @@
 		</select>
 </div>
 <div class="w3-half">
-  <input type="file" name="pic" accept="image/*">
+  
+  <div class="file-upload-content">
+  <img class="file-upload-image" src="#" alt="Profile picture"/>
+  </div>
+  <div style="margin-top:4%"></div>
+  <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*">
+  
+  </div>
 </div>
-</div>
+
 
 
 
